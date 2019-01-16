@@ -11,7 +11,7 @@ using git commit --amend
 
 4. If you get tired of the process of using git add ==> git commit, just use git commit -a -m msg to skip the action 'git add'.
 
-5. git rm --cached -r . |    git rm --cached filename
+5. git rm --cached -r . |    git rm --cached filename : If you need to remove some all or some files from remote repository without delete them from current directory.
 
 
 6. If you have made a commit but missed several files to be committed, you can add them, then use git commit --amend to modify previous committment.
