@@ -18,5 +18,11 @@ using git commit --amend
 
 7.  If you just want to undo the changes of some files, use git checkout -- filename. But be carefully to this action, cuz the changes will disapper, and files will go back to the last committed status. So every change you make, you've better to commit it!
 
+8. git mv file_from file_to
+
+    same to those command lines:
+      mv file_from file_to
+      git rm file_from
+      git add file_to
 
 
