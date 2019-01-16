@@ -20,9 +20,12 @@ using git commit --amend
 
 8. git mv file_from file_to
 
-    same to those command lines:
-      mv file_from file_to
-      git rm file_from
-      git add file_to
+   same to those command lines:
+     mv file_from file_to
+     git rm file_from
+     git add file_to
 
-
+9. About remote repository
+  add remote repository:
+    git remote add [shortname] [url]
+  
